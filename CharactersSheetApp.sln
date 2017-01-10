@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4940D718-1322-44FE-8F97-0FB79E9EC9B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F37B6E97-7528-4C3D-ABB1-225423FD78A3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CharactersSheetApp", "src\CharactersSheetApp\CharactersSheetApp.xproj", "{78A66E24-B1F3-4791-8B1D-A94B07607FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A66E24-B1F3-4791-8B1D-A94B07607FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A66E24-B1F3-4791-8B1D-A94B07607FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A66E24-B1F3-4791-8B1D-A94B07607FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A66E24-B1F3-4791-8B1D-A94B07607FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78A66E24-B1F3-4791-8B1D-A94B07607FCA} = {4940D718-1322-44FE-8F97-0FB79E9EC9B3}
+	EndGlobalSection
+EndGlobal
