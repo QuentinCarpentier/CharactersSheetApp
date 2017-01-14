@@ -1,0 +1,19 @@
+﻿@model CharactersSheetApp.Models.Character
+
+<h2>Create</h2>
+<hr/>
+
+<form asp-action="Create" asp-controller="Character">
+    <div class="form-horizontal">
+        <h4>Character</h4>
+        <hr/>
+        <div class="form-group">
+            <div class="row">
+                <label class="control-label col-md-2" asp-for="Name"></label>
+                <div class="col-md-10">
+                    <input class="form-control" asp-for="Name" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
